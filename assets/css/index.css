@@ -1,0 +1,6 @@
+@import url('./shared.css');
+
+img#html5css3 {
+    width: 100px;
+    height: auto;
+}
