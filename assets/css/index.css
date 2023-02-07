@@ -1,6 +1,13 @@
 @import url('./shared.css');
 
-img#html5css3 {
-    width: 100px;
+img {
     height: auto;
+}
+
+img#html5css3, img#python {
+    width: 100px;
+}
+
+img#urgot, img#tristana {
+    width: 200px;
 }

@@ -17,7 +17,7 @@ header h1 a:hover {
     border: 1px solid black;
 }
 
-header {
+header, footer {
     background-color: #8accff;
     padding: 10px 1%;
 }
@@ -36,6 +36,7 @@ header > *:first-child {
 #main {
     margin: auto;
     max-width: 95%;
+    overflow: auto;
 }
 
 .menu {
@@ -76,10 +77,19 @@ img.right {
     margin: 0 0 10px 10px;
 }
 
+img.left {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
 .row {
     display: flex;
 }
 
 .two-col {
     flex: 50%
+}
+
+.center {
+    text-align: center;
 }
